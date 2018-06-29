@@ -54,11 +54,14 @@ The file/function structure is futher shown in the table below.
 |getProvinceData         |retrieves the data for a chosen province                           |data.js    |
 |changeDataValues        |changes the data of 3 topics to be per 1000 people                 |data.js    |
 |translation             |function for d3.translation                                        |data.js    |
+|getTopic                |retrieves the title and subtitle of a chosen topic                 |data.js    |
+|getChosenProvince       |retrieves the currently clicked province                           |data.js    |
+|changeYear              |updates the visualizations for the chosen year                     |data.js    |
 |***Event listeners***   |                                                                   |           |
 |on.("click")            |will update the visualizations when the map is clicked             |map.js   |
-|changetopic             |will update the bar chart on dropdown selection                    |index.js   |
-|changeYear              |will update the visualizations when a year is chosen via the slider|data.js   |
-                                          
+|changetopic             |will update the bar chart on dropdown selection                    |index.js  |
+|.on("onchange")         |will call changeYear when the slider is used                       |index.js   |
+                                         
 Table 1: Diagram with components
 
 ## Challenges
