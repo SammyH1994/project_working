@@ -47,7 +47,16 @@ Image 3: Screenshot of About section
 The data that was used is CBS regional data.  
 [Data source](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70072ned/table?ts=1528142338597)
 
-All external sources that have been used for the code are noted atop of the js file that utilizes it.
+All external sources that have been used for the code are noted atop of the js file that utilizes it
+
+Other extensions that have been used (that have their own copyright notice) are:
+- d3 (including several d3 extenstions)
+- An adapted version of d3-tip for v4 (in a separate js file in the map src/code/js. The source is listed in this file
+- Topojson
+- Bootstrap
+- jQuery
+- Google Fonts
+- Images from Unsplash.com.
 
 ### Author
 Sammy Heutz, 10445765
