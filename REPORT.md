@@ -54,11 +54,14 @@ The file/function structure is futher shown in the table below.
 |getProvinceData         |retrieves the data for a chosen province                           |data.js    |
 |changeDataValues        |changes the data of 3 topics to be per 1000 people                 |data.js    |
 |translation             |function for d3.translation                                        |data.js    |
+|getTopic                |retrieves the title and subtitle of a chosen topic                 |data.js    |
+|getChosenProvince       |retrieves the currently clicked province                           |data.js    |
+|changeYear              |updates the visualizations for the chosen year                     |data.js    |
 |***Event listeners***   |                                                                   |           |
 |on.("click")            |will update the visualizations when the map is clicked             |map.js   |
-|changetopic             |will update the bar chart on dropdown selection                    |index.js   |
-|changeYear              |will update the visualizations when a year is chosen via the slider|data.js   |
-                                          
+|changetopic             |will update the bar chart on dropdown selection                    |index.js  |
+|.on("onchange")         |will call changeYear when the slider is used                       |index.js   |
+                                         
 Table 1: Diagram with components
 
 ## Challenges
@@ -70,7 +73,7 @@ Table 1: Diagram with components
 - My next issue with the map was with the hovering. At first, I changed the opacity on hover, but I was told that this might be confusing since the color, and thus the value, might seemingly change. It was suggested to change the border color, but this did not work since the paths of my map are drawn on top of each other and thus some provinces' borders would only be colored partly. Therefore, I decided to only have the tooltip on hover. Instead, I added a pattern on top of the color when the map is clicked, which stays like this until another province is chosen. This way, it is clear which province is chosen at the moment. The tooltip provides enough indication that a certain province is hovered over.
 - Another issue I had was with using global variables for things like svg, width and height, since these need to be used in both the create and the update functions. Eventually, my create functions return a dictionary that contain all these variables, which is then provided as input to the update functions.
 - My final issue was with the slider and the map. I changed sliders on the last Thursday, but did not realize until Friday morning that now, when a province is clicked first, and then the slider is used, the province on the two charts changes back to the Netherlands. It took me the entire day to fix this issue, together with the assistants. The final solution is not very elegant/efficient code-wise, but at least I managed to fix the issue on time. 
-Clearly describe challenges that your have met during development. Document all important changes that your have made with regard to your design document (from the PROCESS.md). Here, we can see how much you have learned in the past month.
+- Eventually, I thought I had fixed the issues with the interaction between the slider/map and barchart and submitted my project, but when I wanted to make the video I found out that there was still something wrong. I could not live with this issue, so I decided to still fix it, even though the deadline had expired. Eventually, I got everything to work and I have decided to commit it to a new repo even though I am late, since I really want a working product. The only remaining bug is one that I cannot seem to fix: when the page is open and you first click a province on the map and then use the rest of the page, everything works like it should. If you, however, start with using the slider when the page has loaded, the fill pattern on the map does not work if you click on a province. Instead, the province will turn black. I do not understand why this happens, since the CSS element does seem to have the correct fill pattern. It seems like this is a bug that I cannot fix. The rest of the website does work like it should in this case, just the fill color is not what it should be. 
 
 ## Decisions
 I feel like in the end, my visualization is nearly the same as I had imagined. The only big change is that I had to change the population pyramid to have 1 instead of 2 pyramids. As I explained above, I feel like this is a more clear solution that is better for comparison between provinces. Additionally, the map now does not have a hover over effect. In an ideal world, I would have liked to change the border colors, but this did not work out. In the end, I feel like the tooltip should be clear enough.

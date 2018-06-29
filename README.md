@@ -4,7 +4,12 @@ Sammy Heutz
 Programmeerproject  
 Minor Programmeren UvA 2018  
 
-[Visualizations](https://SammyH1994.github.io/project)
+This is the second version of my programming project, in which a bug was fixed.
+
+[Visualizations](https://SammyH1994.github.io/project_working)
+
+[Demonstration video (in Dutch)](https://youtu.be/EGjwFnKRQTs)
+
 
 ### Problem Statement
 Recently, it became known that the number of baby's born with a birth defect is alarmingly higher in Limburg than in any other province of the Netherlands: 3.84% in Limburg compared to the national average of 2.84% ([Source](https://www.limburger.nl/cnt/dmf20180524_00062550/alarmerend-meer-baby-s-met-afwijkingen-in-limburg)). 
