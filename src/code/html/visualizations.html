@@ -1,0 +1,204 @@
+<!-- 
+	Sammy Heutz
+	10445765
+	visualizations.html is the html file for the page that displays the visualizations
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- Required meta tags -->
+   		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>What makes Limburg Different?</title>
+
+		<!-- Stylesheets -->		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+			 crossorigin="anonymous">
+		<link rel = "stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link href="../index.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+	     <!-- Scripts -->
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://d3js.org/d3-request.v1.min.js"></script>
+		<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+		<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>			
+		<script src="https://d3js.org/d3-dsv.v1.min.js"></script>	
+		<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+		<script src="//d3js.org/topojson.v1.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+			crossorigin="anonymous"></script>
+   		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+   			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+   			crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    		crossorigin="anonymous"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    	<script src="https://unpkg.com/d3-simple-slider@0.2.1/build/d3-simple-slider.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/map.js"></script>
+		<script src="../js/pyramid.js"></script>
+		<script src="../js/barchart.js"></script>
+		<script src="../js/data.js"></script>
+		<script src="../js/d3tip.js"></script>
+
+	</head>
+	<body>
+		
+	<!-- Container for page -->
+	 <div class="container-narrow">
+	 	<div id="block"></div>
+
+ 		<!-- Navigation bar -->
+    	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="collapse navbar-collapse" id="navbarColor02">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav=item">
+						<a class="nav-link">Navigation</a>
+					</li>
+		      		<li class="nav-item">
+    					<a class="nav-link" href="../../../index.html">Home</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="visualizations.html">Visualization</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="about.html">About</a>
+  					</li>
+  					<li class="nav-item">
+    					<a class="nav-link" href="https://github.com/SammyH1994/project" target="_blank">Github</a>
+  					</li>
+				</ul>
+				</div>
+		</nav>
+
+		<!-- Page hader  -->
+		<div class="jumbotron">
+			<h1> How is Limburg different?</h1>
+			<h6>This page visualizes the differences between Limburg and other provinces of the Netherlands.</h6>
+		</div>
+
+		<!-- Container for grid -->
+		<div class="container">
+			<div class="row">
+				<div class="col align-self-center">
+					<!-- Explanation -->
+					<p>Below, you can find the visualizations comparing Limburg to other provinces of the Netherlands.</p>
+					<p>Firstly, a map is shown in which the population size for a certain year is shown per province. 
+					Using the slider, a different year can be chosen. Hovering over the map displays a tool tip with the population size for that province.
+					When a province of the map is clicked, the page will scroll down to the population pyramid and barchart, in which Limburg will be compared with that chosen province.
+					If Limburg is clicked, Limburg will be compared with the entirity of the Netherlands.</p>
+					<p>The population pyramid displays the population per age group for Limburg and a chosen province for a certain year.
+					The bar chart compares Limburg and a chosen province for a certain year on a chosen topic using the dropdown menu.
+					The information button at the bottom creates a pop up message with additional information about the pyramid and the barchart. </p>
+					<p> You can use the pink button to scroll down to the first visualization.</p>
+			
+					<!-- Scroll down button -->
+					<a class="btn" href="#">
+						<i class="fa fa-chevron-circle-down" id="scrollDown" style="font-size:30px;color:#ff9999"></i>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col align-self-center">
+					<!-- Container for map -->
+					<div id="container1"></div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Slider -->
+      			<div class="col" id="slidercol">
+      				Please choose a year:
+        			<div id="slider"></div>
+      			</div>
+      		</div>
+			<div class="row">
+				<div class="col">
+					<!-- Scroll up button -->
+					<a class="btn" href="#">
+						<i class="fa fa-chevron-circle-up" id="scrollUp" style="font-size:30px;color:#ff9999"></i>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<!-- Container for pyramid -->
+					<div id="container2"></div>
+				</div>
+				<div class="col">
+					<!-- Container for bar chart -->
+					<div id="container3">
+						<!-- Alert for no data -->
+						<div class="alert alert-danger alert-dismissible fade show" id = "nodata" role="alert">
+						  <strong>Chart not updated!</strong> No data available
+						  </button>
+						</div>
+
+						<!-- Drop down menu -->
+						<div class="dropdown">
+	 			 			<button class="btn btn-primary dropdown-toggle" type="button" 
+	 			 				id="dropdownButton" data-toggle="dropdown" aria-haspopup="true" 
+	 			 				aria-expanded="false">
+		    				Topic</button>
+			  				<div class="dropdown-menu">
+				    			<a class="dropdown-item"  id = "birthsanddeaths">Births and Deaths</a>
+				    			<a class="dropdown-item"  id = "causesofdeath">Causes of Death</a>
+				    			<a class="dropdown-item"  id = "migration">Migration Background</a>
+				    			<a class="dropdown-item"  id = "income">Income</a>
+				    			<a class="dropdown-item"  id = "socialsecurity">Social Security</a>
+				    			<a class="dropdown-item"  id = "education">Education</a>
+			  				</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+					<!-- Button with pop up text -->
+					<button type="button" id="infoButton" class="btn btn-secondary">Extra Information</button>
+						<div id="myModal" class="modal">
+						  <div class="modal-content">
+						    <span class="close">&times;</span>
+						    <div class="row" id="infoRow">
+						    	<div class="col" id="infoCol">
+						    		<h5> Population Pyramid </h5>
+						    		<p>This population pyramid visualizes the relative population size per age group.
+						    		The pyramid compares Limburg with a chosen province.</p>
+						    		<p>Using the slider, a different year can be chosen</p>
+						    		<p>A population pyramid provides information about the distribution of a population. 
+						    		For instance, it gives information about the amount of baby's born, or about whether or not a population is getting older in general.</p>
+						    		<p>By comparing Limburg to other provinces, it can be explored whether the distribution of the population is different in Limburg</p>
+						    	</div>
+						    	<div class="col" id="infoCol">
+						    		<h5> Grouped Barchart </h5>
+						    		<p>This grouped barchart displays the differences between Limburg and a chosen province on several topics. 
+						    			Using the drop down, a topic can be chosen (and a year can be chosen using the slider). </p>
+						    		<p>The topic "Births and Deaths" displays the number of births and deaths that have taken place per 1000 people. </p>
+						    		<p>The topic "Causes of Death" indicates the incidence of several causes of deaths, such as growths (tumors etc), heart disease, respiratory issues, external causes or other causes.</p>
+						    		<p>The topic "Migration" displays the percentage of migrants: dutch or non-dutch, and western vs non-western migrants. Dutch and non-dutch migrants together make up for 100%, while western and non-western migrants make up for the total amount of non-dutch migrants.</p>
+						    		<p>The topic "Income" provides information about the yearly income of males, females, and the total population (x 1000 euros).</p>
+						    		<p>The topic "Social security" indicates the benefits that have been reveived (x 1000 euros), splitting the total amount of benefits in benefits until retirement age (untilAOW) and from retirement age (fromAOW)</p>
+						    		<p> Finally, the topic "Education" displays the highest (completed) level of education per 1000 people. This is split up in the three dutch higher education levels MBO, HBO and WO. <p>
+						    	</div>
+							 </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	<div class="clear"></div>
+		<footer class="footer">
+			<p> Sammy Heutz, 10445765</p>
+			<p> Data Processing 2018, Minor Programming</p>
+		</footer>
+	</body>
+</html>

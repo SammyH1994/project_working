@@ -1,0 +1,113 @@
+<!-- 
+	Sammy Heutz
+	10445765 
+
+	Index.html creates the homepage of the website.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- Required meta tags -->
+   		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>What makes Limburg Different?</title>
+
+	</head>
+
+	<body>
+		<!-- Stylesheets -->		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+			 crossorigin="anonymous">
+		<link rel = "stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+	    <link href="src/code/index.css" rel="stylesheet"/>
+	    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+		<!-- Scripts -->
+	    <script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://d3js.org/d3-request.v1.min.js"></script>
+		<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+		<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>			
+		<script src="https://d3js.org/d3-dsv.v1.min.js"></script>	
+		<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+		<script src="//d3js.org/topojson.v1.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+			crossorigin="anonymous"></script>
+   		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+   			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+   			crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    		crossorigin="anonymous"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    	<script src="src/code/js/data.js"></script>
+    	<script src="src/code/js/homebar.js"></script>
+    	<script src="src/code/js/d3tip.js"></script>
+
+		<!-- Container for page -->
+    	<div class="container-narrow">
+		 	<div id="block"></div>
+
+		 	<!-- Navigation bar -->
+		 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  			<div class="collapse navbar-collapse" id="navbarColor02">
+	    			<ul class="navbar-nav mr-auto">
+	    				<li class="nav=item">
+	    		  	  		<a class="nav-link">Navigation</a>
+	    				</li>
+	    		      	<li class="nav-item">
+	        				<a class="nav-link" href="index.html">Home</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="src/code/html/visualizations.html">Visualization</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="src/code/html/about.html">About</a>
+	      				</li>
+	            		<li class="nav-item">
+	        				<a class="nav-link" href="https://github.com/SammyH1994/project" target="_blank">Github</a>
+	      				</li>
+	   				</ul>
+	  			</div>
+			</nav>
+
+		    <!-- Page header  -->
+			<div class="jumbotron">
+				<h1> How is Limburg different?</h1>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<!-- Explanation -->
+					<div class="col align-self-center">
+						<p>According to recent news (<a href="https://www.nu.nl/gezondheid/5282750/babys-in-limburg-hebben-vaker-aangeboren-afwijking.html">Source</a>),
+						a higher percentage of baby's in the province of Limburg are born with a birth defect than in the rest of the Netherlands.</p> 
+						<p>The bar chart on the right shows the difference in percentage between Limburg and the Netherlands. 
+						This difference is seen as alarming, but researchers are not sure what causes this effect.</p>
+						<p> Therefore, this website aims to explore the differences between Limburg and the Netherlands on several different aspects using data from between the years 2006 and 2015.
+						On the page "Visualization", three visualizations exploring these differences can be found: a map displaying the population size per province, a population pyramid comparing the relative presence of certain age groups in Limburg and a chosen province, and a grouped barchart comparing Limburg and a chosen province on several topics (births and deaths, migration, education, income, social security and causes of death). </p>
+						<p> On the "About" page, more background information and a description of the data and visualizations can be found. The data source is also listed on this page.</p>
+						<p> <a href="src/code/html/visualizations.html">Continue to the visualizations</a></p>
+					</div>
+					<!-- Bar chart -->
+					<div class="col align-self-center">
+					<div id="container4"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="clear"></div>
+			<div class="footer">
+				<p> Sammy Heutz, 10445765</p>
+				<p> Data Processing 2018, Minor Programming</p>
+	</body>
+</html>
+

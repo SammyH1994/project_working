@@ -1,0 +1,784 @@
+{"data_2015":
+[
+    {
+        "province": "Nederland",
+        "population": {
+            "total": "16900726",
+            "male": "8372858",
+            "female": "8527868",
+            "from0to4": "6.355916308",
+            "from5to10": "5.549921347",
+            "from11to15": "6.024161329",
+            "from16to20": "5.958087244",
+            "from21to25": "6.342538184",
+            "from26to30": "6.166640415",
+            "from31to35": "5.97318127",
+            "from36to40": "5.992937818",
+            "from41to45": "7.287320083",
+            "from46to50": "7.590691666",
+            "from51to55": "7.390161819",
+            "from56to60": "6.658222848",
+            "from61to65": "6.126009025",
+            "from66to70": "5.756486437",
+            "from71to75": "3.994988144",
+            "from76to80": "3.01365752",
+            "from81to85": "2.126435279",
+            "from86to90": "1.169653895",
+            "from91to94": "0.400006485",
+            "from95": "0.122982883"
+        },
+        "migration": {
+            "dutch": "78.3",
+            "non-dutch": "21.7",
+            "western": "9.6",
+            "non-western": "12.1"
+        },
+        "birthsanddeaths": {
+            "births": "10.1",
+            "deaths": "8.7"
+        },
+        "causesofdeath": {
+            "growths": "45790",
+            "heart": "39379",
+            "respiratory": "12681",
+            "external": "7253",
+            "other": "42031"
+        },
+        "education": {
+            "mbo": "154373",
+            "hbo": "65446",
+            "wo": "37206"
+        },
+        "income": {
+            "total": "32.3",
+            "male": "40.3",
+            "female": "23.9"
+        },
+        "socialsecurity": {
+            "benefits": "4995390",
+            "untilAOW": "1622470",
+            "fromAOW": "3372840"
+        }
+    },
+    {
+        "province": "Groningen",
+        "population": {
+            "total": "583942",
+            "male": "290840",
+            "female": "293102",
+            "from0to4": "5.455691343",
+            "from5to10": "4.752275743",
+            "from11to15": "5.284388938",
+            "from16to20": "6.849943785",
+            "from21to25": "8.37925205",
+            "from26to30": "6.231434597",
+            "from31to35": "5.404052351",
+            "from36to40": "5.357709692",
+            "from41to45": "6.650008246",
+            "from46to50": "6.851764391",
+            "from51to55": "6.770168195",
+            "from56to60": "6.415481218",
+            "from61to65": "6.001541826",
+            "from66to70": "5.72480986",
+            "from71to75": "3.827739379",
+            "from76to80": "2.908499348",
+            "from81to85": "2.037588095",
+            "from86to90": "1.168662932",
+            "from91to94": "0.438600316",
+            "from95": "0.138365983"
+        },
+        "migration": {
+            "dutch": "85.7",
+            "non-dutch": "14.3",
+            "western": "7.7",
+            "non-western": "6.7"
+        },
+        "birthsanddeaths": {
+            "births": "9.1",
+            "deaths": "9.4"
+        },
+        "causesofdeath": {
+            "growths": "1725",
+            "heart": "1535",
+            "respiratory": "446",
+            "external": "222",
+            "other": "1553"
+        },
+        "education": {
+            "mbo": "5886",
+            "hbo": "3211",
+            "wo": "2132"
+        },
+        "income": {
+            "total": "29.1",
+            "male": "35",
+            "female": "22.7"
+        },
+        "socialsecurity": {
+            "benefits": "171360",
+            "untilAOW": "65820",
+            "fromAOW": "105540"
+        }
+    },
+    {
+        "province": "Friesland",
+        "population": {
+            "total": "646257",
+            "male": "323398",
+            "female": "322859",
+            "from0to4": "6.018355834",
+            "from5to10": "5.570602012",
+            "from11to15": "6.238643542",
+            "from16to20": "5.890639821",
+            "from21to25": "5.446475189",
+            "from26to30": "5.125240983",
+            "from31to35": "5.212279301",
+            "from36to40": "5.342986345",
+            "from41to45": "6.948858295",
+            "from46to50": "7.309723352",
+            "from51to55": "7.060871521",
+            "from56to60": "6.656786398",
+            "from61to65": "6.233259744",
+            "from66to70": "6.129770874",
+            "from71to75": "4.275495751",
+            "from76to80": "3.224754789",
+            "from81to85": "2.168031817",
+            "from86to90": "1.23633296",
+            "from91to94": "0.427564528",
+            "from95": "0.131305229"
+        },
+        "migration": {
+            "dutch": "91",
+            "non-dutch": "9",
+            "western": "5",
+            "non-western": "4"
+        },
+        "birthsanddeaths": {
+            "births": "9.3",
+            "deaths": "9.4"
+        },
+        "causesofdeath": {
+            "growths": "1937",
+            "heart": "1683",
+            "respiratory": "464",
+            "external": "278",
+            "other": "1697"
+        },
+        "education": {
+            "mbo": "7296",
+            "hbo": "2222",
+            "wo": "233"
+        },
+        "income": {
+            "total": "28.4",
+            "male": "35.1",
+            "female": "21.2"
+        },
+        "socialsecurity": {
+            "benefits": "189980",
+            "untilAOW": "63130",
+            "fromAOW": "126840"
+        }
+    },
+    {
+        "province": "Drenthe",
+        "population": {
+            "total": "488576",
+            "male": "242262",
+            "female": "246314",
+            "from0to4": "5.598776313",
+            "from5to10": "5.42074223",
+            "from11to15": "6.265217236",
+            "from16to20": "5.40373008",
+            "from21to25": "4.360252532",
+            "from26to30": "4.614445618",
+            "from31to35": "4.769928725",
+            "from36to40": "5.301459396",
+            "from41to45": "7.076657003",
+            "from46to50": "7.547656056",
+            "from51to55": "7.520753133",
+            "from56to60": "7.106724993",
+            "from61to65": "6.656892218",
+            "from66to70": "6.506947938",
+            "from71to75": "4.589718668",
+            "from76to80": "3.519338197",
+            "from81to85": "2.425022052",
+            "from86to90": "1.360180407",
+            "from91to94": "0.456954152",
+            "from95": "0.146581394"
+        },
+        "migration": {
+            "dutch": "90.7",
+            "non-dutch": "9.3",
+            "western": "5.7",
+            "non-western": "3.6"
+        },
+        "birthsanddeaths": {
+            "births": "8.2",
+            "deaths": "10.2"
+        },
+        "causesofdeath": {
+            "growths": "1554",
+            "heart": "1368",
+            "respiratory": "428",
+            "external": "242",
+            "other": "1383"
+        },
+        "education": {
+            "mbo": "5063",
+            "hbo": "1048",
+            "wo": "207"
+        },
+        "income": {
+            "total": "29.4",
+            "male": "36.9",
+            "female": "21.6"
+        },
+        "socialsecurity": {
+            "benefits": "153820",
+            "untilAOW": "50280",
+            "fromAOW": "103540"
+        }
+    },
+    {
+        "province": "Overijssel",
+        "population": {
+            "total": "1140652",
+            "male": "570894",
+            "female": "569758",
+            "from0to4": "6.406809648",
+            "from5to10": "5.854960107",
+            "from11to15": "6.353683641",
+            "from16to20": "5.848351126",
+            "from21to25": "5.936555548",
+            "from26to30": "5.750487434",
+            "from31to35": "5.61703695",
+            "from36to40": "5.73523595",
+            "from41to45": "6.987298085",
+            "from46to50": "7.214884118",
+            "from51to55": "6.897653251",
+            "from56to60": "6.261581613",
+            "from61to65": "5.758536828",
+            "from66to70": "5.442492178",
+            "from71to75": "3.903278485",
+            "from76to80": "2.972853213",
+            "from81to85": "2.11250004",
+            "from86to90": "1.129457139",
+            "from91to94": "0.360867067",
+            "from95": "0.103455906"
+        },
+        "migration": {
+            "dutch": "85.4",
+            "non-dutch": "14.6",
+            "western": "7",
+            "non-western": "7.6"
+        },
+        "birthsanddeaths": {
+            "births": "10.3",
+            "deaths": "8.7"
+        },
+        "causesofdeath": {
+            "growths": "3165",
+            "heart": "2672",
+            "respiratory": "942",
+            "external": "473",
+            "other": "2733"
+        },
+        "education": {
+            "mbo": "12684",
+            "hbo": "4589",
+            "wo": "1293"
+        },
+        "income": {
+            "total": "29.2",
+            "male": "36.6",
+            "female": "21.3"
+        },
+        "socialsecurity": {
+            "benefits": "315260",
+            "untilAOW": "111470",
+            "fromAOW": "203790"
+        }
+    },
+    {
+        "province": "Flevoland",
+        "population": {
+            "total": "401791",
+            "male": "200949",
+            "female": "200842",
+            "from0to4": "7.364702418",
+            "from5to10": "6.52111841",
+            "from11to15": "6.93701712",
+            "from16to20": "6.39603609",
+            "from21to25": "6.041235321",
+            "from26to30": "6.271434864",
+            "from31to35": "6.294526987",
+            "from36to40": "6.213464032",
+            "from41to45": "7.476314322",
+            "from46to50": "7.694486772",
+            "from51to55": "7.336799441",
+            "from56to60": "6.338065258",
+            "from61to65": "5.164937483",
+            "from66to70": "4.239087787",
+            "from71to75": "2.503570646",
+            "from76to80": "1.727819766",
+            "from81to85": "1.209690312",
+            "from86to90": "0.63912252",
+            "from91to94": "0.218172409",
+            "from95": "0.060376259"
+        },
+        "migration": {
+            "dutch": "71.1",
+            "non-dutch": "28.9",
+            "western": "8.9",
+            "non-western": "20"
+        },
+        "birthsanddeaths": {
+            "births": "11.8",
+            "deaths": "5.6"
+        },
+        "causesofdeath": {
+            "growths": "728",
+            "heart": "589",
+            "respiratory": "180",
+            "external": "128",
+            "other": "635"
+        },
+        "education": {
+            "mbo": "4572",
+            "hbo": "1210",
+            "wo": "273"
+        },
+        "income": {
+            "total": "32.2",
+            "male": "40",
+            "female": "23.9"
+        },
+        "socialsecurity": {
+            "benefits": "89710",
+            "untilAOW": "40740",
+            "fromAOW": "48970"
+        }
+    },
+    {
+        "province": "Gelderland",
+        "population": {
+            "total": "2026578",
+            "male": "1001922",
+            "female": "1024656",
+            "from0to4": "5.939770908",
+            "from5to10": "5.462677814",
+            "from11to15": "6.179843547",
+            "from16to20": "5.997380711",
+            "from21to25": "5.909439919",
+            "from26to30": "5.378552238",
+            "from31to35": "5.252888474",
+            "from36to40": "5.479464778",
+            "from41to45": "6.984425478",
+            "from46to50": "7.43028147",
+            "from51to55": "7.307049906",
+            "from56to60": "6.59498703",
+            "from61to65": "6.132964048",
+            "from66to70": "5.783394635",
+            "from71to75": "4.014563869",
+            "from76to80": "3.024466927",
+            "from81to85": "2.128081298",
+            "from86to90": "1.155438977",
+            "from91to94": "0.381569563",
+            "from95": "0.110736724"
+        },
+        "migration": {
+            "dutch": "85.3",
+            "non-dutch": "14.7",
+            "western": "7.7",
+            "non-western": "7"
+        },
+        "birthsanddeaths": {
+            "births": "9.6",
+            "deaths": "8.8"
+        },
+        "causesofdeath": {
+            "growths": "5584",
+            "heart": "4855",
+            "respiratory": "1684",
+            "external": "878",
+            "other": "4889"
+        },
+        "education": {
+            "mbo": "19284",
+            "hbo": "7325",
+            "wo": "3595"
+        },
+        "income": {
+            "total": "31.1",
+            "male": "39.2",
+            "female": "22.6"
+        },
+        "socialsecurity": {
+            "benefits": "560150",
+            "untilAOW": "183070",
+            "fromAOW": "377080"
+        }
+    },
+    {
+        "province": "Utrecht",
+        "population": {
+            "total": "1263572",
+            "male": "618888",
+            "female": "644684",
+            "from0to4": "6.84306714",
+            "from5to10": "5.850560049",
+            "from11to15": "6.03160692",
+            "from16to20": "5.827766651",
+            "from21to25": "6.624311724",
+            "from26to30": "6.467970441",
+            "from31to35": "6.266730751",
+            "from36to40": "6.164007494",
+            "from41to45": "7.330907017",
+            "from46to50": "7.173494899",
+            "from51to55": "6.789602093",
+            "from56to60": "5.952135996",
+            "from61to65": "5.320039924",
+            "from66to70": "4.890177875",
+            "from71to75": "3.331736762",
+            "from76to80": "2.509491756",
+            "from81to85": "1.776967062",
+            "from86to90": "1.028150456",
+            "from91to94": "0.352762236",
+            "from95": "0.116491081"
+        },
+        "migration": {
+            "dutch": "78.7",
+            "non-dutch": "21.3",
+            "western": "8.7",
+            "non-western": "12.7"
+        },
+        "birthsanddeaths": {
+            "births": "11.3",
+            "deaths": "7.5"
+        },
+        "causesofdeath": {
+            "growths": "2872",
+            "heart": "2538",
+            "respiratory": "805",
+            "external": "521",
+            "other": "2748"
+        },
+        "education": {
+            "mbo": "9650",
+            "hbo": "5274",
+            "wo": "3808"
+        },
+        "income": {
+            "total": "36.3",
+            "male": "45.2",
+            "female": "27.2"
+        },
+        "socialsecurity": {
+            "benefits": "303110",
+            "untilAOW": "104160",
+            "fromAOW": "198950"
+        }
+    },
+    {
+        "province": "Noord-Holland",
+        "population": {
+            "total": "2761929",
+            "male": "1360069",
+            "female": "1401860",
+            "from0to4": "6.295822343",
+            "from5to10": "5.293764903",
+            "from11to15": "5.529302294",
+            "from16to20": "5.373058874",
+            "from21to25": "6.245502516",
+            "from26to30": "6.64298717",
+            "from31to35": "6.367662826",
+            "from36to40": "6.270627436",
+            "from41to45": "7.275694274",
+            "from46to50": "7.388021568",
+            "from51to55": "7.059822908",
+            "from56to60": "6.181535449",
+            "from61to65": "5.635050913",
+            "from66to70": "5.342265098",
+            "from71to75": "3.622187804",
+            "from76to80": "2.653548604",
+            "from81to85": "1.886993555",
+            "from86to90": "1.076487394",
+            "from91to94": "0.386181936",
+            "from95": "0.121460446"
+        },
+        "migration": {
+            "dutch": "70.2",
+            "non-dutch": "29.8",
+            "western": "11.9",
+            "non-western": "17.9"
+        },
+        "birthsanddeaths": {
+            "births": "10.6",
+            "deaths": "8.3"
+        },
+        "causesofdeath": {
+            "growths": "7089",
+            "heart": "5931",
+            "respiratory": "1857",
+            "external": "1294",
+            "other": "6861"
+        },
+        "education": {
+            "mbo": "22008",
+            "hbo": "10386",
+            "wo": "7253"
+        },
+        "income": {
+            "total": "35",
+            "male": "43",
+            "female": "26.8"
+        },
+        "socialsecurity": {
+            "benefits": "728460",
+            "untilAOW": "262090",
+            "fromAOW": "466370"
+        }
+    },
+    {
+        "province": "Zuid-Holland",
+        "population": {
+            "total": "3600011",
+            "male": "1776412",
+            "female": "1823599",
+            "from0to4": "6.557572137",
+            "from5to10": "5.403974654",
+            "from11to15": "5.631687337",
+            "from16to20": "5.764202045",
+            "from21to25": "6.482697033",
+            "from26to30": "6.404143942",
+            "from31to35": "6.20878139",
+            "from36to40": "6.046279047",
+            "from41to45": "7.039951464",
+            "from46to50": "7.129941193",
+            "from51to55": "6.900027096",
+            "from56to60": "6.189881396",
+            "from61to65": "5.608491891",
+            "from66to70": "5.278520595",
+            "from71to75": "3.587320376",
+            "from76to80": "2.734404571",
+            "from81to85": "1.993573236",
+            "from86to90": "1.143315243",
+            "from91to94": "0.408417002",
+            "from95": "0.134796672"
+        },
+        "migration": {
+            "dutch": "70.1",
+            "non-dutch": "29.9",
+            "western": "10.7",
+            "non-western": "19.3"
+        },
+        "birthsanddeaths": {
+            "births": "10.9",
+            "deaths": "8.4"
+        },
+        "causesofdeath": {
+            "growths": "9368",
+            "heart": "7889",
+            "respiratory": "2561",
+            "external": "1526",
+            "other": "8941"
+        },
+        "education": {
+            "mbo": "32428",
+            "hbo": "11966",
+            "wo": "8361"
+        },
+        "income": {
+            "total": "33.7",
+            "male": "42.1",
+            "female": "24.9"
+        },
+        "socialsecurity": {
+            "benefits": "952350",
+            "untilAOW": "338390",
+            "fromAOW": "613960"
+        }
+    },
+    {
+        "province": "Zeeland",
+        "population": {
+            "total": "380726",
+            "male": "188718",
+            "female": "192008",
+            "from0to4": "5.688311",
+            "from5to10": "5.159030014",
+            "from11to15": "5.883776912",
+            "from16to20": "5.427351352",
+            "from21to25": "4.916093831",
+            "from26to30": "4.964071857",
+            "from31to35": "5.007480477",
+            "from36to40": "5.246101196",
+            "from41to45": "6.829374834",
+            "from46to50": "7.316008724",
+            "from51to55": "7.092111429",
+            "from56to60": "6.822520812",
+            "from61to65": "6.599131229",
+            "from66to70": "6.72351862",
+            "from71to75": "4.674426928",
+            "from76to80": "3.485385154",
+            "from81to85": "2.523033004",
+            "from86to90": "1.505087281",
+            "from91to94": "0.578020536",
+            "from95": "0.207143066"
+        },
+        "migration": {
+            "dutch": "83.2",
+            "non-dutch": "16.8",
+            "western": "11.7",
+            "non-western": "5.1"
+        },
+        "birthsanddeaths": {
+            "births": "9.5",
+            "deaths": "10.3"
+        },
+        "causesofdeath": {
+            "growths": "1174",
+            "heart": "1103",
+            "respiratory": "295",
+            "external": "156",
+            "other": "1202"
+        },
+        "education": {
+            "mbo": "3696",
+            "hbo": "974",
+            "wo": "113"
+        },
+        "income": {
+            "total": "30.3",
+            "male": "39.2",
+            "female": "20.9"
+        },
+        "socialsecurity": {
+            "benefits": "113130",
+            "untilAOW": "30350",
+            "fromAOW": "82780"
+        }
+    },
+    {
+        "province": "Noord-Brabant",
+        "population": {
+            "total": "2488751",
+            "male": "1243856",
+            "female": "1244895",
+            "from0to4": "5.819963194",
+            "from5to10": "5.197688325",
+            "from11to15": "5.796119162",
+            "from16to20": "5.755537703",
+            "from21to25": "5.875612209",
+            "from26to30": "5.703383738",
+            "from31to35": "5.557640002",
+            "from36to40": "5.662646947",
+            "from41to45": "7.036785506",
+            "from46to50": "7.53436463",
+            "from51to55": "7.36629139",
+            "from56to60": "6.584836247",
+            "from61to65": "6.153080632",
+            "from66to70": "5.744081695",
+            "from71to75": "4.094261076",
+            "from76to80": "3.116539264",
+            "from81to85": "2.140564974",
+            "from86to90": "1.072826111",
+            "from91to94": "0.341039561",
+            "from95": "0.094715953"
+        },
+        "migration": {
+            "dutch": "82.7",
+            "non-dutch": "17.3",
+            "western": "8.9",
+            "non-western": "8.5"
+        },
+        "birthsanddeaths": {
+            "births": "9.4",
+            "deaths": "8.8"
+        },
+        "causesofdeath": {
+            "growths": "6990",
+            "heart": "5922",
+            "respiratory": "1964",
+            "external": "1034",
+            "other": "6029"
+        },
+        "education": {
+            "mbo": "22261",
+            "hbo": "10610",
+            "wo": "3870"
+        },
+        "income": {
+            "total": "31.9",
+            "male": "40.4",
+            "female": "22.7"
+        },
+        "socialsecurity": {
+            "benefits": "683930",
+            "untilAOW": "219420",
+            "fromAOW": "464510"
+        }
+    },
+    {
+        "province": "Limburg",
+        "population": {
+            "total": "1117941",
+            "male": "554650",
+            "female": "563291",
+            "from0to4": "4.840175256",
+            "from5to10": "4.376793767",
+            "from11to15": "5.215462388",
+            "from16to20": "5.486229328",
+            "from21to25": "5.751722713",
+            "from26to30": "5.262405703",
+            "from31to35": "4.951784489",
+            "from36to40": "5.018698161",
+            "from41to45": "6.492095681",
+            "from46to50": "7.623144179",
+            "from51to55": "8.002581003",
+            "from56to60": "7.441509019",
+            "from61to65": "7.069420595",
+            "from66to70": "6.369074807",
+            "from71to75": "4.760985427",
+            "from76to80": "3.651636319",
+            "from81to85": "2.529319444",
+            "from86to90": "1.289341702",
+            "from91to94": "0.40615041",
+            "from95": "0.109447934"
+        },
+        "migration": {
+            "dutch": "79.1",
+            "non-dutch": "20.9",
+            "western": "14.6",
+            "non-western": "6.3"
+        },
+        "birthsanddeaths": {
+            "births": "7.8",
+            "deaths": "10.6"
+        },
+        "causesofdeath": {
+            "growths": "3604",
+            "heart": "3294",
+            "respiratory": "1055",
+            "external": "501",
+            "other": "3360"
+        },
+        "education": {
+            "mbo": "8964",
+            "hbo": "3797",
+            "wo": "1672"
+        },
+        "income": {
+            "total": "29.3",
+            "male": "36.6",
+            "female": "21.7"
+        },
+        "socialsecurity": {
+            "benefits": "361430",
+            "untilAOW": "123260",
+            "fromAOW": "238170"
+        }
+    }
+]
+}

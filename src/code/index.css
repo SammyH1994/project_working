@@ -1,0 +1,296 @@
+/*
+ *  Sammy Heutz
+ *  10445765
+ * 
+ * Index.css is the stylesheet for index.html
+**/
+
+/* Text styles*/
+header {
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background: url("../../doc/achtergrond3.jpg");
+    background-size:100%;
+    background-attachment: fixed;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    line-height: 100px;
+    color: grey;
+}
+
+h1, h6 { 
+    font-family: 'Lobster', Georgia, Times, serif;
+    line-height: 100px;
+    text-shadow: 1px 1px 1px #fbb4ae;
+    color: white;
+}
+
+p, div {
+ font-family: 'Cabin', Helvetica, Arial, sans-serif;
+ font-size: 15px;
+ line-height: 25px;
+ color:grey;
+}
+
+.footer p {
+  color:white;
+}
+
+/* Containers for page*/
+.container-narrow {
+    position:relative;
+    height:100%;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:0%;
+}
+
+/* Block that contains background*/
+#block{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-image: url("../../doc/cream_dust.png");
+    opacity:0.95;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.clear { 
+    clear: both; 
+    height: 80px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url("../../doc/foot2.jpg");
+    background-size: 100%;
+    max-width:100%;
+    max-height:280px;
+    opacity: 0.8;
+    position: relative;
+}
+
+.container {
+    width:100%;
+}
+
+.row{
+    width:100%;
+}
+
+/* Containers for visualizations */
+#container1 { 
+  	position: relative; 
+  	width: 550px;
+  	height: 550px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2.5%;
+  	margin-bottom: 2.5%;
+  	background-color: transparent;
+}
+
+#container2 {
+  	position: relative; 
+  	width: 480px;
+  	height: 450px;
+  	margin-left:auto;
+  	margin-right: auto;
+  	margin-top: 2.5%;
+  	margin-bottom: 2.5%;
+  	background-color: transparent;
+  	box-shadow: 1px 1px 1px 2px rgb(217, 217, 217);
+}
+#container3 {
+  	position: relative; 
+  	width: 480px;
+  	height: 450px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2.5%;
+  	margin-bottom: 2.5%;
+  	background-color: transparent;
+  	box-shadow: 1px 1px 1px 2px rgb(217, 217, 217);
+}
+
+#container4 {
+    position: relative; 
+    width: 500px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px 2px rgb(217, 217, 217);
+}
+
+/* Axes */
+.x.axis text{
+    fill: grey;
+}  
+
+.axis line,
+.axis path {
+    shape-rendering: crispEdges;
+    fill: transparent;
+    stroke: #555;
+}
+
+.axis text {
+    font-size: 11px;
+}
+
+/* Dropdown menu */
+.dropdown:hover .dropdown-item {
+    cursor:pointer;
+}
+
+.dropdown {
+    margin-top:1%;
+    margin-right:1%;
+    float:right;
+}
+
+/* Titles etc*/
+#title{
+	font-size: 20px;
+}
+
+#subtitle{
+	font-size: 15px;
+	position:relative;
+}
+
+#leftProvince{
+	float:left;
+	margin-left:40px;
+}
+
+#rightProvince{
+	float:right;
+	margin-right:40px;
+}
+
+/* Bars*/
+.bar {
+   fill-opacity: 0.7;
+}
+.bar.left {
+   fill: #b5f2d2; 
+}
+.bar.right {
+   fill: #008545;
+}
+
+.bar:hover{
+	 fill-opacity: 1.0;
+	 cursor: pointer;
+}
+
+/* Map */
+#mapsvg{
+    margin-left: 20px;
+}
+
+path{
+   fill-opacity: 1.0;
+}
+
+path:hover {
+   cursor:pointer;
+}
+
+/* Tooltip*/
+.d3-tip {
+    line-height: 1;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+}
+ 
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+ 
+/* Style northward tooltips specifically */
+.d3-tip.n:after {
+    margin: -2px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+/* Alert */
+#nodata{
+    display:none;
+}
+
+/* Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
