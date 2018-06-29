@@ -205,9 +205,6 @@ function updateMap(nld, data, year, currentProvince, topic, titel, subtitel, set
             // Previously clicked map color reset
             svg.select(".filled")
                 .style("fill", function(d) {
-                if (currentProvince = "Nederland"){
-                    currentProvince = "Limburg";
-                }
                 population = getPopulation(currentProvince, data);
                 return color(population);
             })
